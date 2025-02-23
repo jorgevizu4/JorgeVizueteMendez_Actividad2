@@ -1,0 +1,246 @@
+:root{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: breaking_bad;
+    src: url(../breaking_b/Breaking\ Bad.ttf);
+}
+
+body{
+    background-color: #0c3e11;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../breaking_bad/fondo.jpg);
+}
+
+/* INDEX */
+
+#index_body{
+    font-size: 40px;
+    font-family: breaking_bad;
+    color: white;
+    justify-items: center;
+}
+
+.logo{
+    margin: 1rem; 
+}
+
+#img_logo{
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.frase{
+    margin: 1rem;
+    font-size: 50px;
+}
+
+#frase{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.poster{
+    margin: 2rem;
+}
+
+#img_poster{
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+}
+
+/*FORMULARIO*/
+
+#form-body{
+    text-shadow: 2px 2px 4px black;
+    display: block;
+}
+
+form{
+    margin: 50px auto;
+    width: 50%;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+fieldset{
+    border: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+legend{
+    font-weight: bold;
+}
+
+.campo{
+    display: block;
+    padding: 5px;
+}
+
+.campo label{
+    display: inline-block;
+    width: 9rem;
+}
+
+textarea{
+    width:100%;
+}
+
+.botones{
+    display: inline-block;
+    margin: 5px;
+}
+#enviar{
+    background-color: greenyellow;
+    color: black;
+    width: 100px;
+    border-radius: 5px;
+}
+#buscar{
+    background-color: skyblue;
+    color: black;
+    width: 300px;
+    border-radius: 5px;
+}
+#borrar{
+    background-color: brown;
+    color: black;
+    width: 100px;
+    border-radius: 5px;
+}
+/*TABLA*/
+
+#table-body{
+    background-color: rgb(99,113,36);
+}
+
+.contenedor {
+    padding: 0;
+    margin: 10px;
+    border:0;
+    display: flex;
+    justify-content: space-around;
+}
+
+table{
+    background-color: rgb(43,44,36);
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+#cabecera{
+    height: 200px;
+    width: 500px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+tr {
+    padding: 0;
+    margin: 0;
+}
+
+td {
+    border: 10px solid rgb(43,44,36);
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    height: 70px;
+    width: 70px;
+    color: #041606;
+}
+
+#hank{
+    width: 100%;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.vacio {
+    background-color: transparent;
+}
+
+.img_tabla{
+    width: 95%;
+    height: 65px;
+    margin: 0 auto;
+    display: block;
+}
+
+.fuentes-grandes {
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    /*background-color: blue;*/
+    margin: 0 auto;
+    padding: 0;
+}
+
+.fuentes-pequenas{
+    display: block;
+    font-size: 10px;
+    /*background-color: chocolate;*/
+    margin: 0 auto;
+    padding: 0;
+}
+
+p{
+    display: block;
+}
+
+.ww{
+    background-color: rgb(184, 219, 28);
+}
+.hs{
+    background-color: rgb(239, 247, 198);
+}
+.ms{
+    background-color: rgb(172, 141, 208);
+}
+.sg{
+    background-color: rgb(137, 164, 25);
+}
+.jp{
+    background-color: rgb(99, 114, 35);
+}
+.salamanca{
+    background-color: rgb(195, 225, 77);
+}
+.gf{
+    background-color: rgb(189, 197, 157);
+}
+.mex{
+    background-color: rgb(129, 141, 76);
+}
+.resto{
+    background-color: rgb(211, 229, 125);
+}
+.tabla2{
+    background-color: rgb(194, 198, 40);
+}

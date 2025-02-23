@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad - Que comience el juego!</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/breaking_bad/icon.png" type="image/x-icon">
+</head>
+<body class="body" id="form-body">
+    <form action="mailto:raul.rodriguez@proeducaglobal.com">
+        <fieldset>
+            <h1>Formulario Breaking Bad</h1>
+            <fieldset>
+                <legend>Datos Personales:</legend>
+                <div class="campo">
+                    <label>Nombre:</label>
+                    <input type="text" placeholder="ej. Jorge" required>
+                </div>
+                <div class="campo">
+                    <label>Apellidos:</label>
+                    <input type="text" placeholder="ej. Vizuete Mendez" required>
+                </div>
+                <div class="campo">
+                    <label>Direccion Postal:</label>
+                    <input type="text" placeholder="ej. Calle Mar de Plata, 35">
+                </div>
+                <div class="campo">
+                    <label>Código postal:</label>
+                    <input type="text" placeholder="ej. 25289" maxlength="5">
+                </div>
+                <div class="campo">
+                    <label>DNI:</label>
+                    <input type="text" placeholder="ej. 12345678X">
+                </div>
+                <div class="campo">
+                    <label>Correo electrónico:</label>
+                    <input type="email" placeholder="ej. jorge@gmail.com" required>
+                </div>  
+            </fieldset>
+            <fieldset>
+                <legend>Selecciona tu sexo:</legend>
+                <div class="campo">
+                    <input type="radio" name="genero" value="Hombre">
+                    <label>Hombre</label>
+                </div>
+                <div class="campo">
+                    <input type="radio" name="genero" value="Mujer">
+                    <label>Mujer</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Selecciona tu fecha de nacimiento</legend>
+                <div class="campo">
+                    <input type="date" name="fecha_nacimiento" id="fecha_nacimiento">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Elige tu personaje favorito:</legend> 
+                <div class="campo">           
+                    <select name="personajes"> 
+                        <option value="1">Jesse Pinkman</option>
+                        <option value="2">Walter White</option>
+                        <option value="3">Saul Goodman</option>
+                        <option value="4">Gustavo Fring</option>
+                        <option value="5">Pollos Hermanos</option>
+                        <option value="6">Otros personajes</option>
+                    </select>  
+                </div> 
+            </fieldset>
+            <fieldset>
+                <legend>¡Queremos saber tu opinión!</legend>
+                <div class="campo">
+                    <textarea placeholder="Escribe aquí tu opinión sobre la serie..." ></textarea>
+                </div>
+            </fieldset>
+            <div class="botones">
+                <input id="enviar" type="submit" value="Enviar">
+            </div>
+            <div class="botones">
+                <input id="buscar" type="file"  value="Añadir archivo">
+            </div>
+            <div class="botones">
+                <input id="borrar" type="reset" value="Borrar">
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
